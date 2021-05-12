@@ -11,4 +11,6 @@ policy "less-than-100-month" {
   enforcement_level = "hard-mandatory"
 }
 
-  
+policy "disallow-s3-acl-public-read-write" {
+  enforcement_level = "hard-mandatory"
+}
