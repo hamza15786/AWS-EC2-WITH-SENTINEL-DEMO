@@ -3,7 +3,7 @@ module "tfplan-functions" {
 }
 
 module "aws-functions" {  
-  source = "https://raw.githubusercontent.com/FrequencyUnk/terraform-guides/master/governance/third-generation/aws/aws-functions/aws-functions.sentinel"
+  source = "https://raw.githubusercontent.com/hashicorp/terraform-guides/master/governance/third-generation/aws/aws-functions/aws-functions.sentinel"
 }
   
 policy "enforce-mandatory-tags" {
