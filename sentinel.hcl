@@ -19,7 +19,7 @@ policy "enforce-mandatory-tags" {
   enforcement_level = "advisory"
 }
 
-policy "less-than-50-month" {
+policy "less-than-100-month" {
   enforcement_level = "hard-mandatory"
 }
 
