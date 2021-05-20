@@ -20,7 +20,7 @@ policy "enforce-mandatory-tags" {
 }
 
 policy "less-than-100-month" {
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "hard-mandatory"
 }
 
 policy "disallow-s3-acl-public-read-write" {
