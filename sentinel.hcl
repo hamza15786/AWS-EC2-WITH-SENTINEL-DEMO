@@ -19,10 +19,10 @@ policy "enforce-mandatory-tags" {
   enforcement_level = "advisory"
 }
 
-policy "less-than-100-month" {
+policy "less-than-50-month" {
   enforcement_level = "soft-mandatory"
 }
 
-policy "disallow-s3-acl-public-read-write" {
+policy "require-all-resources-from-pmr" {
   enforcement_level = "hard-mandatory"
 }
